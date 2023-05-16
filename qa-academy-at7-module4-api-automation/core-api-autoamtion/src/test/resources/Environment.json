@@ -1,0 +1,72 @@
+{
+  "Environments": [
+    {
+      "Name": "QA",
+      "Apis": [
+        {
+          "Name": "TRELLO-QA",
+          "BaseUrl": "https://api.trello.com/",
+          "Versions": [
+            {
+              "Name": "V1",
+              "Version": "1/"
+            }
+          ],
+          "Authentications": [
+            {
+              "Type": "TOKEN",
+              "Users": [
+                {
+                  "Type": "API-TOKEN-AUTO",
+                  "Key": "bea587d882156b4723f8a624098f4f8c",
+                  "Token": "ATTA07f9a36f79f7c5dc07443c7887b6b2a049134be74f236ebd44ff9ee57577e6f660FAC31F"
+                },
+                {
+                  "Type": "API-TOKEN-AUTO-GOOGLE",
+                  "Token": "Fe"
+                }
+              ]
+            },
+            {
+              "Type": "AUT-BASIC",
+              "Users": [
+                {
+                  "Type": "API-BASIC-AUTO",
+                  "User": "",
+                  "Password": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "MASTER",
+      "Apis": [
+        {
+          "Name": "TRELLO-QA",
+          "BaseUrl": "https://api.trello.com/",
+          "Versions": [
+            {
+              "Name": "V1",
+              "Version": "1/"
+            }
+          ],
+          "Authentications": [
+            {
+              "Type": "TOKEN",
+              "Users": [
+                {
+                  "Type": "API-TOKEN-AUTO",
+                  "Key": "",
+                  "Token": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
